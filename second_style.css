@@ -1,0 +1,242 @@
+body {
+    background-image: url("img/mountain.jpeg");
+    background-color: #ffffff;
+    background-repeat: repeat;
+    background-size: 35%;
+    min-height: 10%;
+    max-height: 100%;
+}
+
+#boxes {
+    content: "";
+    display:inline;
+    clear:right;
+  }
+.div1 {
+    float: right;
+    height: 290px;
+    width: 23%;
+    padding: 0px 10px 25px 10px;
+    margin: 0px 0px 0px 39px;
+    background-repeat: round;
+    color: #16601a;
+  }
+  .div2 {
+    float: left;
+    height: 290px;
+    width: 23%;
+    padding: 0px 10px 25px 10px;
+    margin: 0px 39px 0px 0px;
+  }
+  #column1 {
+    background-color: transparent;
+    word-wrap: break-word;
+  }
+  #column2 {
+    background-color: transparent;
+    width: 65%;
+  }
+  h2 {
+    color: #000000;
+    text-align: justify;
+  }
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: #16601a;
+    border-radius: 50%;
+    animation: reverse;
+}
+
+.center2 {
+    align-self: block;
+    width: 20%;
+    border: #16601a;
+    border-width: 12px;
+    border-radius: 50%;
+}
+
+.center3 {
+    align-self: block;
+    height: 87%;
+    border: #16601a;
+    border-width: 12px;
+    border-radius: 50%;
+}
+
+
+.center_medium {
+    display: inline;
+    margin-left:10%;
+    margin-right: auto;
+    width: 98%;
+    border: #16601a;
+    border-width: 10px;
+    border-radius: 50%;
+}
+
+.center_large {
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 102%;
+    border-radius: 50%;
+}
+
+.left_skew
+{
+    display: inline;
+    margin-left: 40px;
+    margin-right: auto;
+    width: 25%;
+}
+
+.home_page_intro {
+    background-color: transparent;  
+    font-weight: bolder;
+    color: #16601a;
+    text-align: center;
+    margin: 5px 10px 50px 10px;
+  }
+
+ul {
+    list-style-type: none;
+    border: 3px outset transparent;
+    margin: 10px 3px 0px 3px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    text-decoration: underline chocolate;
+
+    font:message-box;
+    font-size: small;
+    font-weight: 900;
+  }
+  
+  li {
+    float: right;
+    border-right:25px solid transparent;
+    text-decoration: underline chocolate;
+  }
+  
+  li:last-child {
+    border-right:antiquewhite;
+    text-decoration: underline chocolate;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline chocolate;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(16, 231, 195);
+  }
+  
+  .active {
+    background-color: #29b677;
+  }
+
+h1 {
+    color: rgb(235, 232, 232);
+}
+
+.black_text {
+    color: rgb(255, 255, 255);
+    background-blend-mode: difference;
+    font-weight: 900;
+    font-size:170%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.white_text {
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size:125%;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.white_text_small {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size:115%;
+    text-align: center;
+    text-decoration: double;
+}
+
+h2 {
+    color: rgb(245, 236, 236);
+    text-align:center;
+    font-weight: 200;
+    font-size: xx-large;
+}
+
+span {
+    background-color: rgb(32, 61, 21);
+  }
+
+
+  .qual_col {
+    column-count: 2;
+    content: '💻';
+    column-gap: 40px;
+    background-color: rgb(27, 78, 33);
+    border: 3px outset rgb(0, 0, 0);
+  }
+
+  .qual_list
+  {
+    color: rgb(255, 255, 255);
+    text-align:center;
+    content: '💻';
+    background-color:rgb(27, 78, 33);  ;
+    font-weight: 200;
+    font-size: xx-large;
+  }
+ h3{
+    column-span: 0;
+    content: '💻';
+    text-align:center;
+ }
+
+ li2{
+    display: list-item;
+    border-right:0px solid rgb(27, 78, 33);
+ }
+
+ li2::marker {
+    content: '💻';
+    color: rgb(255, 254, 254);
+    font-size: 1.5em;
+  }
+
+  .button {
+    background-color: transparent; /* Green */
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+  }
+    
+  img:hover{
+  transform: scaleX(-1);
+  }
+
+  .shrink img {
+    transition: 1s ease;
+    }
+    
+    .shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }

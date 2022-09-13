@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Kieran Beirne</title>
+    <link rel="stylesheet" type="text/css" href="style.css" id="css"></link>
+    <script src="./functions.js"></script>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_me.html">About me</a></li>
+        <li><a href="service.html">Service and Leadership</a></li>
+        <li><a class="active" href="qualifications.html">Qualifications</a></li>
+        <li><a href="hobbies.html">Hobbies and Interests</a></li>
+        <li><a href="https://github.com/kieranbeirne" target="_blank" rel="noopener noreferrer" >Github</a></li>
+        <li><a href="https://www.linkedin.com/in/kieranbeirne/" target="_blank" rel="noopener noreferrer"> LinkedIn </a></li>
+        <li><a href="mailto:kieranbeirne01@gmail.com"> Email</a></li>
+        
+        <li style="float:right"><a href="https://docs.google.com/document/d/1OYb8TuxAzoxafcymTj6mnvA5i0-HamQCUlwLXS31dH4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <!-- <li style="float:right;background-color: transparent; font-size: 14px;padding: 12px;"><button onclick="toggleTheme()">Switch CSS</button></li> -->
+        <button style = "color:white;float:right;background-color: transparent; font-size: 14px;padding: 10px;" type="button" onclick="load_style()">Switch CSS</button>
+    </ul>
+
+    <h1 style="font-size: 38;">Skills, Languages and Technologies</h1>
+
+    <script>
+        function toggleTheme() {
+            // Obtains an array of all <link>
+            // elements.
+            // Select your element using indexing.
+            var theme = document.getElementsByTagName('link')[0];
+  
+            // Change the value of href attribute 
+            // to change the css sheet.
+            if (theme.getAttribute('href') == 'style.css') {
+                theme.setAttribute('href', 'second_style.css');
+            } else {
+                theme.setAttribute('href', 'style.css');
+            }
+        }
+    </script>
+
+    <div class="qual_col">
+        
+        
+    <li2 class ="qual_list"> C++ </li>
+    <li2 class ="qual_list"> Java </li>
+    <li2 class ="qual_list"> Python </li>
+    <li2 class ="qual_list"> SQL </li>
+    <li2 class ="qual_list"> Docker </li>
+    <li2 class ="qual_list"> Kubernetes </li>
+    <li2 class ="qual_list"> CI/CD </li>
+    <li2 class ="qual_list"> Web Design </li>
+    <li2 class ="qual_list"> Agile </li>
+    <li2 class ="qual_list"> Git </li>
+    <li2 class ="qual_list"> AWS </li>
+    <li2 class ="qual_list"> Ruby </li>
+    <li2 class ="qual_list"> Scripting </li>
+    <li2 class ="qual_list"> Linux </li>
+    <li2 class ="qual_list"> OOP </li>
+    <li2 class ="qual_list"> Containers </li>
+    <li2 class ="qual_list"> JavaScript </li>
+    <li2 class ="qual_list"> TCI/IP </li>
+    </div>
+
+    <br>
+    <div class="home_page_intro">
+        <p class="white_text">Checkout my <a style="color: rgb(123, 174, 35)" href="https://github.com/kieranbeirne" target="_blank" rel="noopener noreferrer"> Github</a>, <a style="color: rgb(123, 174, 35)"href="https://www.linkedin.com/in/kieranbeirne/" target="_blank" rel="noopener noreferrer"> LinkedIn</a> and <a style="color: rgb(123, 174, 35)" href="https://docs.google.com/document/d/1OYb8TuxAzoxafcymTj6mnvA5i0-HamQCUlwLXS31dH4/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> resume</a> to see how I've used these!</p>
+    </div>
+    </body>
+</html>

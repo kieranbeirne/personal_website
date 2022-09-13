@@ -1,0 +1,200 @@
+body {
+    background-image: url("img/fringe-chicago-skyline.jpeg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+#boxes {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.div1 {
+    float: left;
+    height: 290px;
+    width: 23%;
+    padding: 0px 10px 25px 10px;
+    margin: 0px 0px 0px 39px;
+  }
+  .div2 {
+    float: right;
+    height: 290px;
+    width: 23%;
+    padding: 0px 10px 25px 10px;
+    margin: 0px 39px 0px 0px;
+  }
+  #column1 {
+    background-color: transparent;
+  }
+  #column2 {
+    background-color: rgb(69, 71, 107);
+    width: 65%;
+  }
+  h2 {
+    color: #edecec;
+    text-align: center;
+  }
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.center2 {
+    align-self: auto;
+    width: 20%;
+}
+
+.center3 {
+    align-self: auto;
+    height: 47%;
+}
+
+
+.center_medium {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+
+.center_large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 102%;
+}
+
+.left_skew
+{
+    display: block;
+    margin-left: 40px;
+    margin-right: auto;
+    width: 25%;
+}
+
+.home_page_intro {
+    border: 3px outset rgb(255, 255, 255);
+    background-color: rgb(69, 71, 107);  
+    text-align: center;
+    margin: 55px 10px 0px 10px;
+  }
+
+ul {
+    list-style-type: none;
+    border: 3px outset rgb(255, 255, 255);
+    margin: 10px 3px 0px 3px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(69, 71, 107);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #74768b;
+  }
+
+h1 {
+    color: grey;
+}
+
+.black_text {
+    color: rgba(0, 0, 0);
+    font-weight: 900;
+    font-size:170%;
+    text-align: center;
+}
+
+.white_text {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size:130%;
+    text-align: center;
+}
+
+.white_text_small {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size:115%;
+    text-align: center;
+}
+
+#red_underline_text {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-weight: 200;
+    font-size: xx-large;
+}
+
+span {
+    background-color: rgb(144, 146, 185);
+  }
+
+
+  .qual_col {
+    column-count: 3;
+    column-gap: 40px;
+    background-color: rgb(69, 71, 107);
+    border: 3px outset rgb(255, 255, 255);
+  }
+
+  .qual_list
+  {
+    color: rgb(255, 255, 255);
+    text-align:center;
+    background-color:rgb(69, 71, 107);  ;
+    font-weight: 200;
+    font-size: xx-large;
+  }
+ h3{
+    column-span: 0;
+    text-align:center;
+ }
+
+ li2{
+    display: list-item;
+    border-right:0px solid #bbb;
+ }
+
+ li2::marker {
+    content: '|';
+    color: black;
+    font-size: 1.5em;
+  }
+
+  .button {
+    background-color: rgb(69, 71, 107);
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+  }
