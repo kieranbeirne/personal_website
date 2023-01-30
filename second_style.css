@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/mountain.jpeg");
+    background-image: url("img/room-swatch-goblin-ppg1040-7-paintzen-300x300.webp");
     background-color: #ffffff;
     background-repeat: repeat;
     background-size: 35%;
@@ -8,45 +8,42 @@ body {
 }
 
 #boxes {
-    content: "";
-    display:inline;
-    clear:right;
-  }
+  content: "";
+  display: table;
+  clear: both;
+}
 .div1 {
-    float: right;
-    height: 290px;
-    width: 23%;
-    padding: 0px 10px 25px 10px;
-    margin: 0px 0px 0px 39px;
-    background-repeat: round;
-    color: #16601a;
-  }
-  .div2 {
-    float: left;
-    height: 290px;
-    width: 23%;
-    padding: 0px 10px 25px 10px;
-    margin: 0px 39px 0px 0px;
-  }
-  #column1 {
-    background-color: transparent;
-    word-wrap: break-word;
-  }
-  #column2 {
-    background-color: transparent;
-    width: 65%;
-  }
-  h2 {
-    color: #000000;
-    text-align: justify;
-  }
+  float: left;
+  height: 290px;
+  width: 23%;
+  padding: 0px 10px 25px 10px;
+  margin: 0px 0px 0px 39px;
+}
+.div2 {
+  float: right;
+  height: 290px;
+  width: 23%;
+  padding: 0px 10px 25px 10px;
+  margin: 0px 39px 0px 0px;
+}
+#column1 {
+  background-color: transparent;
+}
+#column2 {
+  background-color: rgb(25, 53, 26);
+  width: 65%;
+}
+h2 {
+  color: #edecec;
+  text-align: center;
+}
 
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 15%;
     border: #16601a;
     border-radius: 50%;
     animation: reverse;
@@ -103,29 +100,22 @@ body {
     margin: 5px 10px 50px 10px;
   }
 
-ul {
+  ul {
     list-style-type: none;
-    border: 3px outset transparent;
+    border: 3px outset rgb(255, 255, 255);
     margin: 10px 3px 0px 3px;
     padding: 0;
     overflow: hidden;
-    background-color: transparent;
-    text-decoration: underline chocolate;
-
-    font:message-box;
-    font-size: small;
-    font-weight: 900;
+    background-color: rgb(46, 49, 108);
   }
   
   li {
-    float: right;
-    border-right:25px solid transparent;
-    text-decoration: underline chocolate;
+    float: left;
+    border-right:1px solid #bbb;
   }
   
   li:last-child {
-    border-right:antiquewhite;
-    text-decoration: underline chocolate;
+    border-right: none;
   }
   
   li a {
@@ -133,15 +123,15 @@ ul {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: underline chocolate;
+    text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(16, 231, 195);
+    background-color: #111;
   }
   
   .active {
-    background-color: #29b677;
+    background-color: #74768b;
   }
 
 h1 {

@@ -1,16 +1,19 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>About me</title>
-    <link rel="stylesheet" type="text/css" href="style.css" id="css"></link>
-    <script src="./functions.js"></script>
+    <title>Kieran Beirne</title>
+    <link rel="stylesheet" type="text/css" href="second_style.css" id="css"></link>
+    
+
+    <!-- <script src="./functions.js"> -->
+    </script>
+
 </head>
 
 <body>
-    <!-- Navigation bar -->
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="about_me.html">About me</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about_me.html">About me</a></li>
         <li><a href="service.html">Service and Leadership</a></li>
         <li><a href="qualifications.html">Qualifications</a></li>
         <li><a href="hobbies.html">Hobbies and Interests</a></li>
@@ -18,78 +21,21 @@
         <li><a href="https://github.com/kieranbeirne" target="_blank" rel="noopener noreferrer" >Github</a></li>
         <li><a href="https://www.linkedin.com/in/kieranbeirne/" target="_blank" rel="noopener noreferrer"> LinkedIn </a></li>
         <li><a href="mailto:kieranbeirne01@gmail.com"> Email</a></li>
-
+        
         <li style="float:right"><a href="https://docs.google.com/document/d/1OYb8TuxAzoxafcymTj6mnvA5i0-HamQCUlwLXS31dH4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
-        <button style = "color:white;float:right;background-color: transparent; font-size: 14px;padding: 10px;" type="button" onclick="load_style()">Switch CSS</button>
+
+        <!-- <button style = "color:white;float:right;background-color: transparent; font-size: 14px;padding: 10px;" type="button" onclick="load_style()">Switch CSS</button> -->
     </ul>
 
-    <script>
-        function toggleTheme() {
-            // Obtains an array of all <link>
-            // elements.
-            // Select your element using indexing.
-            var theme = document.getElementsByTagName('link')[0];
-  
-            // Change the value of href attribute 
-            // to change the css sheet.
-            if (theme.getAttribute('href') == 'style.css') {
-                theme.setAttribute('href', 'second_style.css');
-            } else {
-                theme.setAttribute('href', 'style.css');
-            }
-        }
-    </script>
+    <h1 class="black_text">Howdy! My name is Kieran Beirne.</h1>
+    <div class= "shrink">
+        <img src="img/052.jpg" class="center" class ="shrink">
+    </div>
 
+    <div class="home_page_intro">
+        <p class="white_text">This is a personal website I made for my CSCE 445 class, Computers and New Media.</p>
+        <p class="white_text">Explore my website to find my bio, portfolio, and which media I frequently use!</p>
 
-    <main id="boxes">
-        
-        <br>
-        <br>
-        <div id="column1" class="div1">
-          <img src="img/IMG_3616.jpg" class="center_medium">
-        </div>
-        <div id="column2" class="div1">
-          <h2>Who am I?</h2> 
-          <p style="color:white;font-size: x-large;"> My name is Kieran Beirne and I am a computer science student at Texas A&M, graduating in May 2024. I am graduating with an emphasis in psychology which I hope to use for creating accessible and inclusive software. I have interests in software engineering and DevOps and I am currently pursuing a software engineering internship for Summer 2023. I graduated from Southlake Carroll High in 2020, where I was a <a style="color: white" href = "https://mysouthlakenews.com/2019/11/sports/postseason-honors-roll-in-for-state-champion-cross-country-teams">varsity cross country runner,</a> which culminated in a state championship my senior year. My hobbies and interets include running, coffee, skydiving and movies. In college, I have taken leadership roles for two clubs, Memorial Student Center Freshmen in Service and Hosting (MSC FISH) and the Student Engineers' Council (SEC).
-        </p>
-        </div>
-    </main>
-
-    <main id="boxes">
-        <br>
-        <br>
-        <div id="column1" class="div2">
-          <img src="img/IMG_7017.jpg" class="center_medium">
-        </div>
-        <div id="column2" class="div2">
-          <h2>Memorial Student Center Freshmen in Service and Hosting</h2> 
-          <p style="color:white;font-size: x-large;"> <a style="color: white" href = "https://fish.tamu.edu">MSC FISH</a> is a service organization that provides leadership opportunities aimed at enhancing its members' purpose and identity by engaging in community service and program development on campus and within the community. I served as the Leadership and Diversity Director of MSC FISH from 2021-2022. I curated and presented internal workshops over topics such as implicit bias, privilege and culture to all 90 members of MSC FISH. I mentored 8 freshmen over the course of the year and we all still keep in touch today. Being in MSC FISH was a fantastic way to give back to the community and develop close friendships in college. I highly encourage all A&M students to get involved in Freshman Leadership Organizations (FLOs).
-        </p>
-        </div>
-    </main>
-
-    <main id="boxes">
-        <br>
-        <br>
-        <div id="column1" class="div1">
-          <img src="img/IMG_5009.JPG" class="center_large">
-        </div>
-        <div id="column2" class="div1">
-          <h2>Student Engineers' Council</h2> 
-          <p style="color:white;font-size: x-large;"> <a style="color: white" href = "https://sec.tamu.edu">SEC</a> is the representative voice of all engineering students at Texas A&M. I currently serve as the Systems Administrator which means updating and improving SEC's 14 websites. I lead a 12-person committee and manage projects with a focus on agile development. With this position I have been able to learn and utilize AWS, Ruby on Rails, ASP.NET, MongoDB, React, Javascript and countless other technologies and frameworks. In Winter 2021 I was selected to represent the SEC on our annual ProTrip in Boston Massachusetts. Some of the websites I develop and maintain are 
-            <a style="color: white" target= "_blank" rel="noopener noreferrer" href = "https://sec.tamu.edu">sec.tamu.edu</a>,
-            <a style="color: white" target= "_blank" rel="noopener noreferrer" href = "http://eweek.tamu.edu">eweek.tamu.edu</a>,
-            <a style="color: white" target= "_blank" rel="noopener noreferrer" href = "http://envision.sec.tamu.edu/#/">envision.sec.tamu.edu</a>,
-            <a style="color: white" target= "_blank" rel="noopener noreferrer" href = "http://legislation.sec.tamu.edu">legislation.sec.tamu.edu</a>,
-            <a style="color: white" target= "_blank" rel="noopener noreferrer" href = "http://engrseminars.tamu.edu">engrseminars.tamu.edu</a>, and 
-            <a style="color: white" target= "_blank" rel="noopener noreferrer" href = "https://careerfair.sec.tamu.edu/">careerfair.sec.tamu.edu</a>. 
-        </p>
-        </div>
-    </main>
-
-    
-    <!-- <div class="home_page_intro">
-        <p class="white_text_small">Hi</p>
-    </div> -->
+    </div>
     </body>
 </html>
